@@ -4,6 +4,11 @@ from post import views
 
 
 urlpatterns = [
-    path('', views.list_posts, name = 'list',),
-    path('cbv', views.PostList.as_view(), name = 'post_list',),
+
+    path('cbv/', views.PostList.as_view(), name='list_post'),
+    path('cbv/details/<int:pk>', views.PostDetail.as_view(), name='post_detail'),
+    path('cbv/create', views.Postcreate.as_view(), name='post_create'),
+    path('cbv/edit/<int:pk>', views.PostEdit.as_view(), name='post_edit'),
+    path('cbv/delete/<int:pk>', views.PostDelete.as_view(), name='post_delete'),
+
 ]

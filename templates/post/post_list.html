@@ -9,7 +9,7 @@
 <body>
 {% for post in object_list %}
 
-    <h4> {{post.title}} </h4>
+    <a href="{% url 'post_detail' post.pk %}"><h4> {{post.title}} </h4></a> 
     <p> {{ post.content }}</p>
 
 {% endfor %}
