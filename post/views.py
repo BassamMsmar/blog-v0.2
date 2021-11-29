@@ -13,17 +13,16 @@ class PostDetail(DetailView):
 
 class PostEdit(UpdateView):
     model = Post
-    fields =  ('content',)
+    fields =  ('title','content',)
     template_name = 'post/post_edit.html'
-    success_url = '/cbv/'
+    success_url = '/'
 
 class Postcreate(CreateView):
     model = Post
     fields =  ('title','content',)
     template_name = 'post/post_edit.html'
-    success_url = '/cbv/'
+    success_url = '/'
 
-class PostDelete(DeleteView):
+class Postcreate(DeleteView):
     model = Post
-    success_url = '/cbv/'
-    
+    success_url = '/'

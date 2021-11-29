@@ -9,6 +9,9 @@
 <body>
 
     {{ post.content }}
-    
+    <br >
+    <button style="margin:5px"><a href="{% url 'post_edit' post.id %}"> Edit This Post </a></button>
+
+
 </body>
 </html>
