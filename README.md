@@ -1,0 +1,2 @@
+# blog-v0.2
+https://www.kite.agency/ar/%D9%85%D8%B9%D8%B8%D9%85-%D8%A3%D9%88%D8%A7%D9%85%D8%B1-git-%D8%A7%D9%84%D8%A3%D8%B3%D8%A7%D8%B3%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A3%D9%85%D8%AB%D9%84%D8%A9/
