@@ -7,8 +7,10 @@
     <title>posts</title>
 </head>
 <body>
-    <h3>
-        بسم الله الرحمن الرحيم
-    </h3>
+    <form action="" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button>Create</button>
+    </form>
 </body>
 </html>

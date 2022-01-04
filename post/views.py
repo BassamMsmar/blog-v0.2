@@ -17,10 +17,10 @@ class PostEdit(UpdateView):
     template_name = 'post/post_edit.html'
     success_url = '/'
 
-class Postcreate(CreateView):
+class PostCreate(CreateView):
     model = Post
     fields =  ('title','content',)
-    template_name = 'post/post_edit.html'
+    template_name = 'post/post_create.html'
     success_url = '/'
 
 class Postcreate(DeleteView):
